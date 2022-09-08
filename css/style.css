@@ -1,0 +1,78 @@
+.bg-blue{
+    background-color: rgba(139, 0, 139, 0.603)
+}
+.bg-kit{
+    background-color: darkmagenta;
+}
+
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+
+.bg-dar{
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+}
+
+.form-label{
+    background-color: rgba(139, 0, 139, 0.516);
+}
+
+
+
+h1{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+   
+}
+
+.even{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+   
+}
+
+
+p{
+    font-size: 15px;
+    padding: 30px;
+    background-color:rgba(139, 0, 139, 0.537);
+}
+
+.form{
+    padding: 10px;
+}
+
+.imgRedonda {
+    width: 70px;
+    height:70px;
+    border-radius:150px;
+}
+
+.imagenCarru{
+    width: 90vw;
+}
+
+.imagenCarru1{
+    height: 60vh;
+}
+
+.headerImg{
+
+    object-fit: cover;
+    width: 100%;
+    height: 35rem;
+
+}
