@@ -35,6 +35,14 @@ h1{
     padding: 40px;
    
 }
+ 
+.car{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+   
+}
 
 .even{
     display: flex;
@@ -133,3 +141,10 @@ h1, h2, h3, h4, h5 {
     font-size: 3em;
 }
 
+.carddos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+   
+}
