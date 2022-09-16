@@ -1,0 +1,18 @@
+//vars esquema de colores
+$mainColor:rgba(139, 0, 139, 0.603);
+
+$secondaryColors:rgb(0, 0, 0);
+
+$colorForm:rgba(139, 0, 139, 0.516);
+
+$navColor: rgb(71, 70, 70);
+
+$radius:150px;
+
+
+
+h1, h2, h3, h4, h5{
+    color: $mainColor $secondaryColors;
+    border-radius: $radius;
+
+}
