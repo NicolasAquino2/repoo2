@@ -1,0 +1,25 @@
+$view: 90vw;
+$alt: 60vh;
+$fit: cover;
+
+
+.imgRedonda{
+    width: 70px;
+    height: 70px;
+    border-radius: $radius;
+}
+
+.imagenCarru1{
+   width: $alt
+}
+
+.imagenCarru{
+   height: $view
+}
+
+.headerImg{
+   object-fit: $fit;
+    width: 100%;
+ 
+
+}
