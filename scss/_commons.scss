@@ -1,4 +1,5 @@
 //vars esquema de colores
+
 $mainColor:rgba(139, 0, 139, 0.603);
 
 $secondaryColors:rgb(0, 0, 0);
@@ -11,8 +12,33 @@ $radius:150px;
 
 
 
-h1, h2, h3, h4, h5{
-    color: $mainColor $secondaryColors;
-    border-radius: $radius;
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
 
 }
+
+@mixin flex ($dire, $justy,  $item){
+    display: flex;
+    flex-direction: $dire;
+    align-items: $item;
+    justify-content: $justy;
+    
+}
+
+.rooy{
+    @include flex(row,space-between,center);
+    padding: 40px;
+   
+}
+
+ 
+
+
+.form{
+    padding: 10px;
+}
+
+
+

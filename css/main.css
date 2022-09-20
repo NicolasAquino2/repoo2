@@ -1,6 +1,56 @@
-h1, h2, h3, h4, h5 {
-  color: rgba(139, 0, 139, 0.603) rgb(0, 0, 0);
-  border-radius: 150px;
+body {
+  background-image: url(../img/back.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.bg-blue{
+  background-color: #8b008b9a
+}
+
+.form-label{
+  background-color: #8b008b84;
+}
+
+.bg-dar{
+  color: #000000;
+}
+
+.rooy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.form {
+  padding: 10px;
+}
+
+.gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.4654236695) 0%, rgba(217, 8, 209, 0.7455357143) 55%);
+}
+
+.transform:hover {
+  transform: translateX(10px);
+  transition: transform 1s;
+}
+
+.scale:hover {
+  transform: scaleX(1.1);
+  transition: 1s;
+}
+
+#botonera ul li a:visited {
+  color: rgb(71, 70, 70);
+  font-size: 5rem;
+}
+
+.selec p.one:first-letter {
+  color: rgb(0, 0, 0);
+  font-size: 3em;
 }
 
 .imgRedonda {
@@ -21,6 +71,15 @@ h1, h2, h3, h4, h5 {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+}
+
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+  justify-content: center;
+  padding: 20px;
 }
 
 p {

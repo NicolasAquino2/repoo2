@@ -2,7 +2,7 @@
     background-color: rgba(139, 0, 139, 0.603)
 }
 .bg-kit{
-    background-color: darkmagenta;
+    background-color: rgb(139, 0, 139);
 }
 
 body{
@@ -13,8 +13,7 @@ body{
 }
 
 .bg-dar{
-  color: hsl(0, 0%, 0%);
-  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .form-label{
@@ -28,7 +27,7 @@ h1{
     font-size: 30px;
 }
 
-.conteiner{
+.rooy{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,17 +35,6 @@ h1{
    
 }
  
-
-
-.even{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px;
-   
-}
-
-
 p{
     font-size: 15px;
     padding: 30px;
@@ -92,7 +80,7 @@ h1, h2, h3, h4, h5 {
 .tit{
     margin: 20px auto;
     width: 30%;
-    height: 0%;
+    height: 10%;
     padding: 20px 20px;
     border-radius:150px;
     
@@ -130,15 +118,4 @@ h1, h2, h3, h4, h5 {
     
 
 }
-.selec p.one:first-letter{
-    color: rgb(0, 0, 0);
-    font-size: 3em;
-}
 
-.carddos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px;
-   
-}

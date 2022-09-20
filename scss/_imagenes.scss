@@ -23,3 +23,19 @@ $fit: cover;
  
 
 }
+
+
+@mixin flex ($dire, $justy,  $item){
+   display: flex;
+   flex-direction: $dire;
+   align-items: $item;
+   justify-content: $justy;
+   padding: 20px;
+   
+}
+
+.iconos{
+   @include flex(row,center,row)
+}
+
+

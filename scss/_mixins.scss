@@ -1,0 +1,42 @@
+//mixin
+
+@mixin flex ($dire, $justy,  $item){
+    display: flex;
+    flex-direction: $dire;
+    align-items: $item;
+    justify-content: $justy;
+    
+}
+
+.iconos{
+    @include flex(row,center,row)
+}
+
+.rooy{
+    @include flex(row,space-between,center)
+}
+
+//maps
+$paleta:(
+    "uno": #8b008b9a
+    "dos":#8b008b
+    "tres":#000000
+    "cuatro":#8b008b84
+    "cinco":#8b008b89
+    "seis":linear-gradient(90deg, #00000077 0%, #d908d1be 55%)
+    "siete":#474646
+
+);
+
+.bg-blue{
+    background-color: map-get($map:$paleta, $key:'uno');
+}
+
+.form-label{
+    background-color: map-get($map:$paleta, $key: 'cuatro' );
+}
+
+.bg.dar{
+    background-color: map-get($map:$paleta, $key: 'tres');
+}
+

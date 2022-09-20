@@ -1,0 +1,30 @@
+$tam:5rem;
+$font:3rem;
+$fontpeke:3em;
+$fontxxl:35rem;
+$size:15px;
+
+.gradient{
+    background: $secondaryColors;
+    background: map-get($map: $paleta, $key:'seis')
+}
+
+.transform:hover{
+    transform: translateX(10px);
+    transition: transform 1s;
+}
+
+.scale:hover{
+    transform: scaleX(1.1);
+    transition: 1s;
+}
+
+#botonera ul li a:visited{
+    color: rgb(71, 70, 70);
+    font-size: $tam;
+}
+
+.selec p.one:first-letter{
+    color: $secondaryColors;
+    font-size: $fontpeke;
+}
