@@ -16,13 +16,7 @@ body {
   color: #000000;
 }
 
-.rooy {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px;
-}
+
 
 .form {
   padding: 10px;
