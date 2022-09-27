@@ -1,0 +1,44 @@
+//vars animaciones
+$view: 90vw;
+$alt: 60vh;
+$fit: cover;
+
+//vars textos
+$font:3rem;
+$fontpeke:3em;
+$fontxxl:35rem;
+$size:15px;
+
+
+//vars colores
+$mainColor:rgba(139, 0, 139, 0.603);
+
+$secondaryColors:rgb(0, 0, 0);
+
+$colorForm:rgba(139, 0, 139, 0.516);
+
+$navColor: rgb(71, 70, 70);
+
+$radius:150px;
+
+
+
+
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+
+ 
+
+
+.form{
+    padding: 10px;
+}
+
+
+
+
+

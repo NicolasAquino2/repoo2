@@ -1,0 +1,83 @@
+body {
+  background-image: url(../img/back.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.form {
+  padding: 10px;
+}
+
+.gradient {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.4654236695) 0%, rgba(217, 8, 209, 0.7455357143) 55%);
+}
+
+.transform:hover {
+  transform: translateX(10px);
+  transition: transform 1s;
+}
+
+.scale:hover {
+  transform: scaleX(1.1);
+  transition: 1s;
+}
+
+#botonera ul li a:visited {
+  color: rgb(71, 70, 70);
+  font-size: 2em;
+}
+
+.selec p.one:first-letter {
+  color: rgb(0, 0, 0);
+  font-size: 3em;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px 20px;
+  border-radius: 150px;
+  text-decoration: none;
+}
+
+footer .tit {
+  text-align: center;
+  margin: 20px auto;
+  width: 30%;
+  padding: 20px 20px;
+  border-radius: 150px;
+  text-decoration: none;
+}
+
+.imgRedonda {
+  width: 70px;
+  height: 70px;
+  border-radius: 150px;
+}
+
+.imagenCarru1 {
+  height: 90vh;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+p {
+  font-size: 15px;
+  padding: 30px;
+  background-color: rgba(139, 0, 139, 0.516);
+}
+
+.form-label {
+  background-color: rgba(139, 0, 139, 0.516);
+}
+
+.bg-dar {
+  color: rgb(0, 0, 0);
+}/*# sourceMappingURL=main.css.map */

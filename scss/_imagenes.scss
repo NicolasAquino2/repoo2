@@ -1,0 +1,29 @@
+
+
+.imgRedonda{
+    width: 70px;
+    height: 70px;
+    border-radius: $radius;
+}
+
+.imagenCarru1{
+   height: 90vh;
+}
+
+
+
+
+@mixin flex ($dire, $justy,  $item){
+   display: flex;
+   flex-direction: $dire;
+   align-items: $item;
+   justify-content: $justy;
+   padding: 20px;
+   
+}
+
+.iconos{
+   @include flex(row,center,row)
+}
+
+
