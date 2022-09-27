@@ -23,25 +23,12 @@ $radius:150px;
 
 
 
+
 body{
     background-image: url(../img/back.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
 
-}
-
-@mixin flex ($dire, $justy,  $item){
-    display: flex;
-    flex-direction: $dire;
-    align-items: $item;
-    justify-content: $justy;
-    
-}
-
-.rooy{
-    @include flex(row,space-between,center);
-    padding: 40px;
-   
 }
 
  
@@ -50,6 +37,8 @@ body{
 .form{
     padding: 10px;
 }
+
+
 
 
 

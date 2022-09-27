@@ -7,19 +7,10 @@
 }
 
 .imagenCarru1{
-   width: $alt
+   height: 90vh;
 }
 
-.imagenCarru{
-   height: $view
-}
 
-.headerImg{
-   object-fit: $fit;
-    width: 100%;
- 
-
-}
 
 
 @mixin flex ($dire, $justy,  $item){

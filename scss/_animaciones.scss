@@ -1,7 +1,7 @@
 
 .gradient{
     background: $secondaryColors;
-    background: map-get($map: $paleta, $key:'seis')
+    background:linear-gradient(90deg, rgba(0,0,0,0.4654236694677871) 0%, rgba(217,8,209,0.7455357142857143) 55%);
 }
 
 .transform:hover{
@@ -16,7 +16,7 @@
 
 #botonera ul li a:visited{
     color: rgb(71, 70, 70);
-    font-size: $tam;
+    font-size: 2em;
 }
 
 .selec p.one:first-letter{
