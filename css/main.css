@@ -8,9 +8,13 @@ body {
   padding: 10px;
 }
 
+nav ul li a {
+  font-size: 3rem;
+}
+
 .gradient {
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.4654236695) 0%, rgba(217, 8, 209, 0.7455357143) 55%);
+  background: linear-gradient(90deg, rgba(39, 37, 37, 0.123) 0%, rgba(217, 8, 209, 0.7455357143) 55%);
 }
 
 .transform:hover {
@@ -36,6 +40,7 @@ body {
 h1, h2, h3, h4, h5 {
   text-align: center;
   margin: 20px auto;
+  width: 70%;
   padding: 20px 20px;
   border-radius: 150px;
   text-decoration: none;
